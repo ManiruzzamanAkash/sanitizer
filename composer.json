@@ -2,7 +2,7 @@
     "name": "maniruzzaman/sanitizer",
     "description": "A php package that would sanitize your every input and HTML",
     "type": "library",
-    "license": "GPLv2",
+    "license": "MIT",
     "authors": [
         {
             "name": "ManiruzzamanAkash",

@@ -6,9 +6,18 @@
     "authors": [
         {
             "name": "ManiruzzamanAkash",
-            "email": "manirujjamanakash@gmail.com"
+            "email": "manirujjamanakash@gmail.com",
+            "homepage": "https://akash.devsenv.com"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sanitizer\\": "src/Sanitizer/",
+            "Maniruzzaman\\Sanitizer\\": "src/"
+        }
+    }
 }

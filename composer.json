@@ -1,0 +1,14 @@
+{
+    "name": "maniruzzaman/sanitizer",
+    "description": "A php package that would sanitize your every input and HTML",
+    "type": "library",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "ManiruzzamanAkash",
+            "email": "manirujjamanakash@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

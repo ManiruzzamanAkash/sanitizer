@@ -29,11 +29,24 @@ $unsanitized_value = "<br>Unsanitized";
 
 $sanitize = new Sanitize();
 $sanitize->text($unsanitized_value); // Unsanitized
+
+// Attribute sanitization
+$sanitize->attr("(Attribute Show)");
+
+// Url sanitization
+$sanitize->url("https://bad-url.com new");
 ```
 
-## Release Note: `v0.0.1`
+## Release Notes:
 
+#### Release version `0.0.2`
+- Added `Url` Sanitization
+
+
+#### Release version `0.0.1`
 - Release some simple escaping functions.
+- Added `text` sanitization
+- Added `attribute` sanitization
 
 ## License
 The Library is open-sourced software licensed under the <a href="https://opensource.org/licenses/MIT">MIT license</a>.

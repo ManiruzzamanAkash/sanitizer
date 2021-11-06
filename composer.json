@@ -3,6 +3,7 @@
     "description": "A php package that would sanitize your every input and HTML",
     "type": "library",
     "license": "MIT",
+    "version": "0.0.2",
     "authors": [
         {
             "name": "ManiruzzamanAkash",
@@ -13,12 +14,15 @@
     "require": {
         "php": ">=5.3.0"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Sanitizer\\": "src/Sanitizer/",
             "Maniruzzaman\\Sanitizer\\": "src/"
-        }
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+        },
+        "files": [
+            "functions.php"
+        ]
+    }
 }

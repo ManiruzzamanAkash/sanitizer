@@ -11,9 +11,12 @@ Let's see inside of this.
 
 
 ## Requirement
-**Requires PHP:** 7.1 or later
+- **PHP:** 7.1 or later
+- **PHP Unit (in dev):** 7
 
-**Stable tag:** 0.0.6
+
+## Latest Version
+`0.0.6`
 
 
 ## How to install
@@ -64,6 +67,12 @@ $sanitize->attr($string);
 #### More is coming...
 
 ## Release Notes:
+
+#### Release version `0.0.6`
+- [Enhancement] Updated some doc-block
+- [Enhancement] Structured some code base
+- [Enhancement] Updated Minimum PHP Version requirement
+- [Enhancement] Added PHP Unit test support dev package
 
 #### Release version `0.0.5`
 - Fixed some autoloading issue with documenting

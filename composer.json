@@ -3,7 +3,7 @@
     "description": "A php package that would sanitize your every input and HTML",
     "type": "library",
     "license": "MIT",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "authors": [
         {
             "name": "ManiruzzamanAkash",

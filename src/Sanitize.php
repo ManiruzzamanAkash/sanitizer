@@ -83,8 +83,6 @@ final class Sanitize
         // If attribute is a string, sanitize it
         $safe_text = $this->Utf8Formatter->format($attr);
 
-        // Get stpec
-
         return $safe_text;
     }
 }

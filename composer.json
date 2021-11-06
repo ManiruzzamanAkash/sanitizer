@@ -21,7 +21,7 @@
             "Maniruzzaman\\Sanitizer\\": "src/"
         },
         "files": [
-            "functions.php"
+            "src/functions.php"
         ]
     }
 }

@@ -10,7 +10,6 @@
             "homepage": "https://akash.devsenv.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.0"
     },
@@ -19,5 +18,7 @@
             "Sanitizer\\": "src/Sanitizer/",
             "Maniruzzaman\\Sanitizer\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }

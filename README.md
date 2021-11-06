@@ -16,7 +16,7 @@ Let's see inside of this.
 
 
 ## Latest Version
-`0.0.6`
+`0.0.7`
 
 
 ## How to install
@@ -84,6 +84,10 @@ phpunit tests/SanitizeTest.php
 
 
 ## Release Notes:
+
+#### Release version `0.0.7`
+- [Enhancement] Added unit test for text() helper sanitize function.
+- [Enhancement] Added some security and fund links
 
 #### Release version `0.0.6`
 - [Enhancement] Updated some doc-block

@@ -18,7 +18,8 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Maniruzzaman\\Sanitizer\\": "src/"
+            "Maniruzzaman\\Sanitizer\\": "src/",
+            "Maniruzzaman\\SanitizerTest\\": "tests/"
         },
         "files": [
             "src/functions.php"

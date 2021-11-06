@@ -42,7 +42,7 @@ $sanitize = new Sanitize();
 ```php
 $string  = 'Text with script <script>alert("you are hacked...")</script>';
 Sanitize::text($string);
-//Output: Text with issuealert("you are hacked...")
+#Output: Text with issuealert(&quot;you are hacked...&quot;)
 ```
 
 
@@ -50,7 +50,7 @@ Sanitize::text($string);
 ```php
 $string  = 'Text with script <strong>This is strong text</strong>';
 Sanitize::text($string);
-//Output: Text with script This is strong text
+#Output: Text with script This is strong text
 ```
 
 #### Sanitize Attribute
@@ -61,10 +61,27 @@ $string  = 'https://devsenv.com<script>welcome</script>';
 
 $sanitize = new Sanitize();
 $sanitize->attr($string);
-//Output: https:://devsenv.com
+#Output: https:://devsenv.com
 ```
 
 #### More is coming...
+
+## Testing
+
+We've used [PHPUnit](https://phpunit.readthedocs.io/en/9.5/index.html)
+ to test our codes.
+
+Check if everything passes test cases or not. You can check our test cases to see the
+implementations of Sanitizer.
+
+```php
+// For full directory
+phpunit tests
+
+// For specific file test
+phpunit tests/SanitizeTest.php
+```
+
 
 ## Release Notes:
 

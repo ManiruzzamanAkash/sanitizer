@@ -34,8 +34,7 @@ function _deep_replace($subject, $search)
  * in the query are being handled inconsistently. This function works around those
  * differences as well.
  *
- * @since 4.4.0
- * @since 4.7.0 The `$component` parameter was added for parity with PHP's `parse_url()`.
+ * @since 0.0.2
  *
  * @link https://www.php.net/manual/en/function.parse-url.php
  *

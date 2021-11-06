@@ -1,7 +1,12 @@
 <?php
 
-namespace ManiruzzamanAkash\Sanitizer\Formatter;
+namespace Maniruzzaman\Sanitizer\Formatter;
 
+/**
+ * Utf-8 Formatter.
+ *
+ * Formats the given string to utf-8.
+ */
 class Utf8Formatter implements FormatterInterface
 {
     /**

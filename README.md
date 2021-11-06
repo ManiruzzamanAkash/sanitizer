@@ -39,6 +39,9 @@ $sanitize->url("https://bad-url.com new");
 
 ## Release Notes:
 
+#### Release version `0.0.5`
+- Fixed some autoloading issue with documenting
+
 #### Release version `0.0.4`
 - Fixed autoloading functions
 

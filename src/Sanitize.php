@@ -1,14 +1,14 @@
 <?php
 
-namespace ManiruzzamanAkash\Sanitizer;
+namespace Maniruzzaman\Sanitizer;
 
-use ManiruzzamanAkash\Sanitizer\Formatter\Utf8Formatter;
+use Maniruzzaman\Sanitizer\Formatter\Utf8Formatter;
 
 /**
  * Sanitize Main class.
  *
  * @author Maniruzzaman Akash <manirujjamanakash@gmail.com>
- * @package ManiruzzamanAkash\Sanitize
+ * @package Maniruzzaman\Sanitize
  *
  * @version 0.0.1
  */

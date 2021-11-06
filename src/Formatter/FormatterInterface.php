@@ -1,11 +1,11 @@
 <?php
 
-namespace ManiruzzamanAkash\Sanitizer\Formatter;
+namespace Maniruzzaman\Sanitizer\Formatter;
 
 /**
  * Interface FormatterInterface.
  *
- * @package ManiruzzamanAkash\Sanitizer\Formatter
+ * @package Maniruzzaman\Sanitizer\Formatter
  * @author  Maniruzzaman Akash <manirujjamanakash@gmail.com>
  */
 interface FormatterInterface

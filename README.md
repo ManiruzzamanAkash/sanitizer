@@ -11,9 +11,9 @@ Let's see inside of this.
 
 
 ## Requirement
-**Requires PHP:** 5.6
+**Requires PHP:** 7.1 or later
 
-**Stable tag:** 0.0.5
+**Stable tag:** 0.0.6
 
 
 ## How to install
@@ -61,6 +61,8 @@ $sanitize->attr($string);
 //Output: https:://devsenv.com
 ```
 
+#### More is coming...
+
 ## Release Notes:
 
 #### Release version `0.0.5`
@@ -84,3 +86,6 @@ $sanitize->attr($string);
 ## License
 The Library is open-sourced software licensed under the <a href="https://opensource.org/licenses/MIT">MIT license</a>.
 
+## Support
+Do you wanna support me to buy a coffee? Please be one of my patreon -
+https://www.patreon.com/maniruzzaman

@@ -2,8 +2,12 @@
 
 namespace Maniruzzaman\Sanitizer\Formatter;
 
+use Maniruzzaman\Sanitizer\Interfaces\FormatterInterface;
+
 /**
  * Utf-8 Formatter.
+ *
+ * @since 0.0.1
  *
  * Formats the given string to utf-8.
  */

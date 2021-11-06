@@ -1,6 +1,6 @@
 <?php
 
-namespace Maniruzzaman\Sanitizer\Formatter;
+namespace Maniruzzaman\Sanitizer\Interfaces;
 
 /**
  * Interface FormatterInterface.

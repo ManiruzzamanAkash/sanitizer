@@ -13,28 +13,52 @@ Let's see inside of this.
 ## Requirement
 **Requires PHP:** 5.6
 
-**Stable tag:** 0.0.1
+**Stable tag:** 0.0.5
 
 
 ## How to install
 
-```bash
+```shell
 composer require maniruzzaman/sanitizer
 ```
 
-## How to use
+## Documentation
 
+Instantiation and loading.
 ```php
-$unsanitized_value = "<br>Unsanitized";
+// at top of the class autoload
+use Maniruzzaman\Sanitizer\Sanitize;
+
+// instantiate anywhere if needed
+$sanitize = new Sanitize();
+```
+
+#### Sanitize Text
+
+**Example 1: Sanitize text with script:**
+```php
+$string  = 'Text with script <script>alert("you are hacked...")</script>';
+Sanitize::text($string);
+//Output: Text with issuealert("you are hacked...")
+```
+
+
+**Example 2: Sanitize text with html texts:**
+```php
+$string  = 'Text with script <strong>This is strong text</strong>';
+Sanitize::text($string);
+//Output: Text with script This is strong text
+```
+
+#### Sanitize Attribute
+
+**Example 3: Sanitize attribute to filter out unnecessary strings:**
+```php
+$string  = 'https://devsenv.com<script>welcome</script>';
 
 $sanitize = new Sanitize();
-$sanitize->text($unsanitized_value); // Unsanitized
-
-// Attribute sanitization
-$sanitize->attr("(Attribute Show)");
-
-// Url sanitization
-$sanitize->url("https://bad-url.com new");
+$sanitize->attr($string);
+//Output: https:://devsenv.com
 ```
 
 ## Release Notes:

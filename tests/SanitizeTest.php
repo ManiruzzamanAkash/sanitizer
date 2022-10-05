@@ -33,8 +33,7 @@ class SanitizeTest extends TestCase
      */
     public function it_can_check_if_text_sanitization_works_with_html_text_to_normal_string()
     {
-        $this->assertEquals("Test", "Test");
-        $this->assertEquals('Hello World', $this->sanitize->text('<p>Hello World</p>'));
+        $this->assertSame('Hello World', $this->sanitize->text('<p>Hello World</p>'));
     }
 
     /**
@@ -42,6 +41,6 @@ class SanitizeTest extends TestCase
      */
     public function it_can_check_if_text_sanitization_works_with_script_html_text_to_normal_string()
     {
-        $this->assertEquals('Hello World alert(&quot;You are hacked&quot;)', $this->sanitize->text('<p>Hello World <script>alert("You are hacked")</script></p>'));
+        $this->assertSame('Hello World alert(&quot;You are hacked&quot;)', $this->sanitize->text('<p>Hello World <script>alert("You are hacked")</script></p>'));
     }
 }
